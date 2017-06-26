@@ -1,0 +1,23 @@
+title: hix.io
+email: m@hix.io
+description: >
+  The personal site of Mike Hix.
+baseurl: "/"
+url: "https://hix.io"
+twitter_username: mooselix
+github_username: musl
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+

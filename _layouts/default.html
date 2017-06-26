@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="pure-g main">
+      <div class="pure-u-1 pure-u-md-1-6">
+        <!-- spacer -->
+      </div>
+      <div class="pure-u-1 pure-u-md-1-6 nav-box">
+        <p><a href="/#!" class="logo"><img src="/images/knot.jpg" alt="hix.io"><h1>{{ site.title }}</h1></a></p>
+        <p>{% include nav.html %}</p>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-2 content-box">
+        <div class="column-pad">
+          {{ content }}
+        </div>
+      </div>
+      <div class="pure-u-1 pure-u-md-1-6">
+        <!-- spacer -->
+      </div>
+  </body>
+</html>

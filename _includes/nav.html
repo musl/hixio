@@ -1,0 +1,18 @@
+<div id="menu">
+  <ul>
+    <li><a href="/">posts</a></li>
+    <li><a href="/photos">photos</a></li>
+    <li><a href="/about/">about</a></li>
+    {% if site.twitter_username %}
+    <li>
+      <a href="http://twitter.com/{{ site.twitter_username }}/"><i class="fa fa-twitter"></i> {{ site.twitter_username }}</a>
+    </li>
+    {% endif %}
+    {% if site.github_username %}
+    <li>
+      <a href="https://github.com/{{ site.github_username }}/"><i class="fa fa-github"></i> {{ site.github_username }}</a>
+    </li>
+    {% endif %}
+  </ul>
+  <p><b>&#x2235;</b></p>
+</div>
