@@ -1,3 +1,15 @@
+---
+layout: post
+published: true
+title: A simple rakefile for jekyll
+date: 2017-07-17T08:29:10-07:00
+---
+
+I knocked together a `Rakefile` for use with my shiny new jekyll-based site.
+
+```ruby
+#!/usr/bin/env rake
+# vim: set ft=ruby sw=2 ts=2:
 
 require 'date'
 
@@ -32,4 +44,4 @@ date: #{date.iso8601}
   File.write( POST, TEMPLATE )
   system(ENV['EDITOR'] || 'vim', POST)
 end
-
+```

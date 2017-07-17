@@ -1,7 +1,15 @@
 ---
 layout: default
-photos: []
 ---
 <h1>Photos</h1>
 {% for photo in page.photos %}
+  {% assign current_date = photo.date | date: "%Y" %}
+  {% if current_date != date %}
+    <h3>{{ current_date }}</h3>
+  {% endif %}
+  {% assign date = current_date %}
+  <a href="{{ photo.path }}" class="thumbnail"><img src="{{ photo.thumbnail }}" alt="{{ photo.alt }}" /></a>
 {% endfor %}
+{% if page.photos.size == 0 %}
+  <p>No photos found.</p>
+{% endif %}

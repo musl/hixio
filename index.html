@@ -3,5 +3,13 @@ layout: default
 ---
 <h1>Posts</h1>
 {% for post in site.posts %}
-	<p><span class="post-date">{{ post.date | date: "%B %d %H:%m" }}</span> &middot; <a href="{{ post.url }}">{{ post.title }}</a></p>
+  {% assign current_date = post.date | date: "%Y" %}
+  {% if current_date != date %}
+    <h3>{{ current_date }}</h3>
+  {% endif %}
+  {% assign date = current_date %}
+  <p><span class="post-meta">{{ post.date | date: "%b %d %H:%m" }}</span> &middot; <a href="{{ post.url }}">{{ post.title }}</a></p>
 {% endfor %}
+{% if site.posts.size == 0 %}
+  <p>No posts found.</p>
+{% endif %}
