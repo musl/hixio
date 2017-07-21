@@ -3,12 +3,28 @@
  *   - regexps are purple
  *   - no italic
  *   - slightly lighter background
+ *   - added support for inline literals
  *
  * Source: https://github.com/cstrahan/pygments-styles/blob/master/themes/jellybeans.css
  *
  */
+
+code.highlighter-rouge {
+  background: #e7e7e7;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.highlight  {
+  background: #333;
+  color: #e8e8d3;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
 .highlight .hll { }
-.highlight  { background: #222; color: #e8e8d3; }
 .highlight .c { color: #888888; } /* Comment */
 .highlight .err { color: #e8e8d3; } /* Error */
 .highlight .g { color: #e8e8d3; } /* Generic */

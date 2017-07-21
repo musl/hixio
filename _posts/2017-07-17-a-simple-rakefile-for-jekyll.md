@@ -1,13 +1,25 @@
 ---
 layout: post
 published: true
-title: A simple rakefile for jekyll
+title: A Simple Rakefile for Jekyll
 date: 2017-07-17T08:29:10-07:00
 ---
 
-I knocked together a `Rakefile` for use with my shiny new jekyll-based site.
+I knocked together a `Rakefile` for use with my shiny new jekyll-based
+site. I wanted an easy way to kick out new posts with little work.
 
-```ruby
+With the rakefile below, it's as easy as:
+
+``` shell
+$ rake post title="The Curious Etymology of Jute"
+```
+
+That command will create a new templated markdown file with front matter
+including the current date and point your `$EDITOR` (or vim) at it.
+
+Here's the whole file:
+
+``` ruby
 #!/usr/bin/env rake
 # vim: set ft=ruby sw=2 ts=2:
 

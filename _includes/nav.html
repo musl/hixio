@@ -1,20 +1,25 @@
 <div id="menu">
   <p><b>&#x2234;</b></p>
   <ul>
-    <li><a href="/about/">about</a></li>
     <li><a href="/">posts</a></li>
     <li><a href="/photos">photos</a></li>
+    <li><a href="/about">about</a></li>
 	</ul>
   <p><b>&#x2237;</b></p>
 	<ul>
-    {% if site.twitter_username %}
-    <li>
-      <a href="http://twitter.com/{{ site.twitter_username }}/"><i class="fa fa-twitter"></i> {{ site.twitter_username }}</a>
-    </li>
-    {% endif %}
     {% if site.github_username %}
     <li>
       <a href="https://github.com/{{ site.github_username }}/"><i class="fa fa-github"></i> {{ site.github_username }}</a>
+    </li>
+    {% endif %}
+    {% if site.keybase_username %}
+    <li>
+      <a href="https://keybase.io/{{ site.keybase_username }}/"><i class="fa fa-key"></i> {{ site.keybase_username }}</a>
+    </li>
+    {% endif %}
+    {% if site.twitter_username %}
+    <li>
+      <a href="http://twitter.com/{{ site.twitter_username }}/"><i class="fa fa-twitter"></i> {{ site.twitter_username }}</a>
     </li>
     {% endif %}
   </ul>

@@ -6,6 +6,7 @@ baseurl: "/"
 url: "https://hix.io"
 twitter_username: mooselix
 github_username: musl
+keybase_username: mhix
 
 markdown: kramdown
 plugins:

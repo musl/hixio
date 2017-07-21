@@ -229,3 +229,10 @@ a[data-tooltip]:hover:before, a[data-tooltip]:hover:after {
   pointer-events: none;
 }
 
+blockquote {
+  width: 32em;
+  margin-left: 0.5em;
+  border-left: 0.25em #0ac solid;
+  padding-left: 1em;
+}
+
