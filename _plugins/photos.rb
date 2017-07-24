@@ -33,7 +33,9 @@ module HixIO
       site.config['photos'] = DEFAULTS.merge( site.config['photos'] || {} )
       config = site.config['photos']
 
-      page = site.pages.detect { |page| page.name == 'photos.html' }
+      page = site.pages.detect { |page| page.name == 'photos.html' || page.dir == '/photos/' }
+      return unless page.respond_to? :data
+
       root = Pathname.new( site.source )
       photos = Pathname.glob( root.join( config['photo_path'], config['photo_matcher'] ), File::FNM_CASEFOLD )
       thumbnail_dir = root.join( config['thumbnail_path'] )
