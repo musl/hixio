@@ -20,7 +20,6 @@ including the current date and point your `$EDITOR` (or vim) at it.
 Here's the whole file:
 
 ``` ruby
-#!/usr/bin/env rake
 # vim: set ft=ruby sw=2 ts=2:
 
 require 'date'
@@ -32,6 +31,17 @@ task :serve do
   exec 'jekyll serve --watch --livereload'
 end
 
+desc 'Deploy the site to production'
+task :deploy do
+  exec 'ansible-playbook -i ansible/inventory ansible/deploy.yaml'
+end
+
+desc 'Clean up.'
+task :clean do
+  exec 'jekyll clean'
+end
+
+desc 'Create a new post.'
 task :post do
   title = ENV['title'] or
     abort 'Missing environment variable "title". Example: rake post title="some title"'
@@ -56,4 +66,5 @@ date: #{date.iso8601}
   File.write( POST, TEMPLATE )
   system(ENV['EDITOR'] || 'vim', POST)
 end
+
 ```
