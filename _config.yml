@@ -16,6 +16,8 @@ exclude:
   - Rakefile
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - ansible
   - node_modules
   - vendor/bundle/
   - vendor/cache/

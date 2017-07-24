@@ -1,0 +1,2 @@
+[all]
+hix.io ansible_python_interpreter="/usr/bin/env python"
