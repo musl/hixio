@@ -1,16 +1,18 @@
 # hix.io
 This is my jekyll-based blog.
 
-## Manual Workflow
+## Cold-Start
+1. Install Ansible, bundler gem
 1. git clone https://github.com/musl/hixio
 1. cd `hix.io`
 1. `bundle install`
-1. `jekyll build`
-1. `rsync --delete -aPve ssh _site/ hix.io:/usr/local/hix.io/www/`
 
-## Automated Workflow
-1. git clone https://github.com/musl/hixio
-1. cd `hix.io`
-1. `bundle install`
-1. `ansible-playbook ansible/deploy.yaml`
+## Server Setup
+1. Install nginx
+1. Configure nginx to serve static content
+1. Set up SSH access for the deploy user
+1. `chown deploy_user:www /path/to/www/root`
+
+## Deploy
+1. As the deploy user: `rake deploy`
 
