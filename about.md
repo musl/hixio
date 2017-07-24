@@ -11,6 +11,3 @@ risk, hosting DevOps meet-ups, or just figuring out how it works. The
 rest of the time, I'm playing with my son, playing Kerbal Space Program,
 playing overwatch, working on my house, or cooking.
 
-> If you don't hate at least some part of a piece of software, you don't
-> know it well enough.
-
