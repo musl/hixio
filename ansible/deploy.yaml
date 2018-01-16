@@ -3,7 +3,7 @@
   vars:
     build_root: ..
     build_dir: '{{ build_root }}/_site'
-    remote_dir: /usr/local/hix.io/www
+    remote_dir: /home/hix_io/www
   tasks:
     - name: local clean
       shell: jekyll clean
