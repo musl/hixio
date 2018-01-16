@@ -26,4 +26,6 @@
         recursive: yes
         delete: yes
         archive: no
+      vars:
+        ansible_ssh_user: hix_io
 
