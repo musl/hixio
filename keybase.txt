@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/mhix
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hix.io
+  * I am mhix (https://keybase.io/mhix) on keybase.
+  * I have a public key ASDAxlmgYqjnhdhotJwmwnAmzOsqAG5YOb6i1gJKBzBB2wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c0c659a062a8e785d868b49c26c27026cceb2a006e5839bea2d6024a073041db0a",
+      "host": "keybase.io",
+      "kid": "0120c0c659a062a8e785d868b49c26c27026cceb2a006e5839bea2d6024a073041db0a",
+      "uid": "0b2f3bf07e4be23709f73998b8168419",
+      "username": "mhix"
+    },
+    "merkle_root": {
+      "ctime": 1520285962,
+      "hash": "dddcb2719eda92b0f00fee35c1667ef316fa9224a7ece67717bed7a8a65fbb771c3ca12350716d6c10a988b9c56304c589fe86d45ee2b6163bdadd3b7421330b",
+      "hash_meta": "66b8529566bdc62ef4d25b8bc877ed61a389468ab9376facbaf5862e8ac7f5e9",
+      "seqno": 2188265
+    },
+    "service": {
+      "hostname": "hix.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.44"
+  },
+  "ctime": 1520285976,
+  "expire_in": 504576000,
+  "prev": "2664fee941e32fdaddf3140862696f7debf31a926fc9661fa6dbd046ecb35b60",
+  "seqno": 65,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwMZZoGKo54XYaLScJsJwJszrKgBuWDm+otYCSgcwQdsKp3BheWxvYWTFAzt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzBjNjU5YTA2MmE4ZTc4NWQ4NjhiNDljMjZjMjcwMjZjY2ViMmEwMDZlNTgzOWJlYTJkNjAyNGEwNzMwNDFkYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzBjNjU5YTA2MmE4ZTc4NWQ4NjhiNDljMjZjMjcwMjZjY2ViMmEwMDZlNTgzOWJlYTJkNjAyNGEwNzMwNDFkYjBhIiwidWlkIjoiMGIyZjNiZjA3ZTRiZTIzNzA5ZjczOTk4YjgxNjg0MTkiLCJ1c2VybmFtZSI6Im1oaXgifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MjAyODU5NjIsImhhc2giOiJkZGRjYjI3MTllZGE5MmIwZjAwZmVlMzVjMTY2N2VmMzE2ZmE5MjI0YTdlY2U2NzcxN2JlZDdhOGE2NWZiYjc3MWMzY2ExMjM1MDcxNmQ2YzEwYTk4OGI5YzU2MzA0YzU4OWZlODZkNDVlZTJiNjE2M2JkYWRkM2I3NDIxMzMwYiIsImhhc2hfbWV0YSI6IjY2Yjg1Mjk1NjZiZGM2MmVmNGQyNWI4YmM4NzdlZDYxYTM4OTQ2OGFiOTM3NmZhY2JhZjU4NjJlOGFjN2Y1ZTkiLCJzZXFubyI6MjE4ODI2NX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJoaXguaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40NCJ9LCJjdGltZSI6MTUyMDI4NTk3NiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIyNjY0ZmVlOTQxZTMyZmRhZGRmMzE0MDg2MjY5NmY3ZGViZjMxYTkyNmZjOTY2MWZhNmRiZDA0NmVjYjM1YjYwIiwic2Vxbm8iOjY1LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQDFXe/2NV5AD5LNaJwExL8FByrLr6ZRynuKK/ZLYpBdrt4V2WtX4jgBfRkhRoXzlj4ufLv3tHkP6x3kWCASEpw+oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBJllAHZIdrRT/5KSLi7j3UU5UYnVlLiuIpr6YysUxohqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mhix
+
+==================================================================
