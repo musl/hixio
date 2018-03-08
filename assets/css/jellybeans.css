@@ -17,11 +17,13 @@ code.highlighter-rouge {
 }
 
 .highlight  {
-  background: #333;
-  color: #e8e8d3;
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
+  padding: 0.75em;
+  background: #333;
+  color: #e8e8d3;
+  font-size: 10pt;
 }
 
 .highlight .hll { }
