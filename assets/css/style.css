@@ -54,18 +54,13 @@ h3 {
 	font-size: 14pt;
 }
 
-pre {
-  padding: 1em;
-  border: 1px #ddd solid;
-}
-
 /* Structure */
 
 div.main {
-	max-width: 1024px;
+	xmax-width: 1024px;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 1080px) {
 	div.main {
 		margin: 14em 0;
 	}
@@ -99,7 +94,7 @@ div.nav-box ul > li {
 	text-align: center;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 1080px) {
 	div.nav-box ul > li {
 		display: block;
 		margin-bottom: 1.25em;
@@ -115,9 +110,10 @@ div.column-pad {
 	margin-right: 1em;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 1080px) {
 	div.column-pad {
 		margin-top: 4.5em;
+		margin-right: 4em;
 	}
 }
 
